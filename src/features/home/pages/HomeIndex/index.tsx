@@ -58,12 +58,12 @@ const HomeIndex: React.FC = () => {
         </div>
       </div>
 
-      <div className="mt-10 grid grid-cols-4 gap-5">
+      <div className="mt-10 grid grid-cols-1 lg:grid-cols-4 gap-5">
         <div>
           <div className="border border-gray-1">
             <div className="p-4 bg-[#60D1D8]">
               <div>TERBARU</div>
-              <div className="text-[14px]">Rangkuman Berita</div>
+              <div className="text-[14px] text-white-1">Rangkuman Berita</div>
             </div>
           </div>
 
@@ -89,7 +89,7 @@ const HomeIndex: React.FC = () => {
           </div>
         </div>
 
-        <div>
+        <div className="relative">
           <div>
             <img
               className="w-full"
@@ -98,20 +98,45 @@ const HomeIndex: React.FC = () => {
             />
           </div>
 
-          <div className="bg-white-1 shadow w-[75%] h-[300px]">
-            <div className="flex gap-3 h-[50px]">
-              <div className="w-[2px] bg-gray-3"></div>
-              <div>
-                <div className="text-[14px] text-gray-2">
-                  BERITA PEMERINTAHAN
+          <div className="flex justify-center">
+            <div className="bg-white-1 shadow w-[75%] h-[300px] p-5 absolute top-[60%]">
+              <div className="flex gap-3">
+                <div className="w-[4px] bg-[#60D1D8]"></div>
+                <div>
+                  <div className="text-[14px] text-gray-2">
+                    BERITA PEMERINTAHAN
+                  </div>
+                  <div className="text-[12px] mt-2 text-gray-2">20-12-2024</div>
                 </div>
-                <div className="text-[12px] mt-2 text-gray-2">20-12-2024</div>
+              </div>
+
+              <div className="mt-4 text-[14px] text-[#60D1D8]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                architecto accusamus similique illum voluptatum odio quasi{" "}
+              </div>
+
+              <div className="flex mt-5">
+                <div className="w-[32px] h-[32px]">
+                  <img
+                    className="w-full"
+                    src="https://www.kominfo.go.id/images/twitter.png"
+                    alt="twitter"
+                  />
+                </div>
+
+                <div className="w-[32px] h-[32px]">
+                  <img
+                    className="w-full"
+                    src="https://www.kominfo.go.id/images/whatsapp.png"
+                    alt="whatsapp"
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div>
+        <div className="relative">
           <div>
             <img
               className="w-full"
@@ -119,15 +144,89 @@ const HomeIndex: React.FC = () => {
               alt="HOAX"
             />
           </div>
+
+          <div className="flex justify-center">
+            <div className="bg-white-1 shadow w-[75%] h-[300px] p-5 absolute top-[60%]">
+              <div className="flex gap-3">
+                <div className="w-[4px] bg-[#60D1D8]"></div>
+                <div>
+                  <div className="text-[14px] text-gray-2">
+                    BERITA PEMERINTAHAN
+                  </div>
+                  <div className="text-[12px] mt-2 text-gray-2">20-12-2024</div>
+                </div>
+              </div>
+
+              <div className="mt-4 text-[14px] text-[#60D1D8]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                architecto accusamus similique illum voluptatum odio quasi{" "}
+              </div>
+
+              <div className="flex mt-5">
+                <div className="w-[32px] h-[32px]">
+                  <img
+                    className="w-full"
+                    src="https://www.kominfo.go.id/images/twitter.png"
+                    alt="twitter"
+                  />
+                </div>
+
+                <div className="w-[32px] h-[32px]">
+                  <img
+                    className="w-full"
+                    src="https://www.kominfo.go.id/images/whatsapp.png"
+                    alt="whatsapp"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div>
+        <div className="relative">
           <div>
             <img
               className="w-full"
               src="https://placehold.co/100x100"
               alt="HOAX"
             />
+          </div>
+
+          <div className="flex justify-center">
+            <div className="bg-white-1 shadow w-[75%] p-5 absolute top-[60%]">
+              <div className="flex gap-3">
+                <div className="w-[4px] bg-[#60D1D8]"></div>
+                <div>
+                  <div className="text-[14px] text-gray-2">
+                    BERITA PEMERINTAHAN
+                  </div>
+                  <div className="text-[12px] mt-2 text-gray-2">20-12-2024</div>
+                </div>
+              </div>
+
+              <div className="mt-4 text-[14px] text-[#60D1D8]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                architecto accusamus similique illum voluptatum odio quasi{" "}
+              </div>
+
+              <div className="flex mt-5">
+                <div className="w-[32px] h-[32px]">
+                  <img
+                    className="w-full"
+                    src="https://www.kominfo.go.id/images/twitter.png"
+                    alt="twitter"
+                  />
+                </div>
+
+                <div className="w-[32px] h-[32px]">
+                  <img
+                    className="w-full"
+                    src="https://www.kominfo.go.id/images/whatsapp.png"
+                    alt="whatsapp"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
