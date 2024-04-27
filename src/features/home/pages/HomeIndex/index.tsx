@@ -46,7 +46,7 @@ const HomeIndex: React.FC = () => {
           </div>
 
           <div className="flex">
-            <div className="w-1 h-[41px] border-[2px] border-red"></div>
+            <div className="w-1 h-[41px] bg-[#ff0000]"></div>
             <div className="flex items-center px-4 bg-[#F0F0F0] font-semibold w-full h-[41px]">
               Makin Digital Makin Maju
             </div>
